@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Valorant </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body class="main">
+
+    <img src="data:image/png;base64,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" alt="Sorry we cant load image" class="logo">
+    <division>
+      <h3>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">VALORANT</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Game Info</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Media</a></li>
+              <li><a href="#">Agents</a></li>
+              <li><a href="#">OTT</a></li>
+              <li><a href="#">Other</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" name="search">
+              </div>
+              <button type="submit"class="btn btn-default"></button>
+            </form>
+          </div>
+        </nav>
+       
+      <div>
+        <video autoplay muted loop id="myVideo">
+          <source src="video1.mp4" type="video/mp4">
+        </video>
+        <div class="insidemyvideo">
+   <p id="insidevideo">Play</p>
+        </div>
+      </div>
+    
+      <h4 >
+        <p id="text1">Valorant is a popular tactical first-person shooter (FPS) game developed and published by Riot Games, the same company behind "League of Legends." The game was officially released on June 2, 2020, and has gained a significant following due to its strategic gameplay, unique characters, and competitive nature.</p>
+      </h4>
+      
+      <h2 id="char">AGENTS</h2>
+      <div class="container">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            
+          </ol>
+          
+    <div class="carousel-inner" role="listbox">
+      
+      <div class="item active">
+        <img src="https://images.hdqwalls.com/download/jett-valorant-4k-k4-1600x900.jpg" alt="Cat" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Jeet</h3>
+          <p>Known for her speed and wind powers</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="https://th.bing.com/th/id/OIP.3WW0BzGfeFmJ6X5WVOhjUgHaEK?rs=1&pid=ImgDetMain" alt="Game" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Neon</h3>
+          <p>Known Agressive lightening power</p>
+        </div>
+      </div>
+      
+      <div class="item">
+        <img src="https://th.bing.com/th/id/OIP.2Ot2qhQU4ECwTREcZspxeQHaEs?rs=1&pid=ImgDetMain" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Chamber</h3>
+          <p>Excellent shooting skills</p>
+        </div>
+      </div>
+      
+      <div class="item">
+        <img src="https://th.bing.com/th/id/OIP.dC9JZB4BpWqH2Oid0fNFBAHaEK?rs=1&pid=ImgDetMain" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>Gekko</h3>
+          <p>creative skills with animal powers</p>
+        </div>
+      </div>
+  
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<h2 id="gid">HISTORY</h2>
+<p id="history">Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games.[3] The game's development started in 2014 and was teased under the codename Project A in October 2019. A closed beta period began with limited access on April 7, 2020, followed by a release on June 2, 2020. It was originally designed for Windows only, but support for the Xbox Series X/S and PlayStation 5 was added in June 2024, albeit without crossplay between PC and console clients. Valorant takes inspiration from the Counter-Strike series, borrowing several mechanics such as the buy menu, spray patterns, and inaccuracy while moving.</p>
+</division>
+</body>
+</html>
